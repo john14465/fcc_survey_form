@@ -13,16 +13,16 @@
         <p id="description">Please give us feed back on how we did</p>
         <form action="/" id="survey-form">
             <fieldset>
-                <label for="name" id="name-label" required>Name: <input type="text" id="name" placeholder="John Doe"></label>
-                <label for="email" id="email-label"required>Email: <input type="email" id="email" placeholder="me@email.com"></label>
+                <label for="name" id="name-label" required>Name: <input type="text" id="name" placeholder="John Doe" required></label>
+                <label for="email" id="email-label"required>Email: <input type="email" id="email" placeholder="me@email.com" required></label>
                 <label for="opt-in"><input type="checkbox" name="opt-in" id="promotional" value="opt-in"> Can we send you promotional emails and discounts?</label>
                 <label for="terms"><input type="checkbox" name="terms" id="terms" value="terms"> Please read our <a href="/">terms and conditions</a></label>
             </fieldset>
             <hr>
             <fieldset>
-                <label for="number" id="number-label">How would you rate our services? (1 being the worst and 10 being the best) <input type="number" id="number" min="1" max="10"></label>
+                <label for="number" id="number-label">How would you rate our services? (1 being the worst and 10 being the best) <input type="number" id="number" min="1" max="10" placeholder="10"></label>
                 <label for="location">Which location were you at?
-                    <select name="location" id="places">
+                    <select name="location" id="dropdown">
                         <option value="Select">Select One</option>
                         <option value="houston">Houston</option>
                         <option value="dallas">Dallas</option>
